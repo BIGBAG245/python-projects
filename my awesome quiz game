@@ -1,0 +1,217 @@
+scoreboard = 0
+
+print("Raiders are the best football team quiz!!! make sure u make ur choices capital or it will be wrong wrong WRONG!!!")
+print()
+answer1 = "A"
+
+print(" Question 1: What would you do if the raiders won the SUPER BOWL!?!?!?!?:\n")
+print("A. THROW A PARTY!!!!\n")
+print("B. CRY AND COMPLAIN ABOUT DEM RAIDERS\n")
+print("C. SIT ON THE COUCH AND JUST DO NOTHING!?\n")
+print("D. LARP ABOUT WE WIN BABY LIKE UGH?\n")
+
+question1 = input("Andddddd your answer is: ")
+if question1 == (answer1):
+    print("YOUR DAYMM RIGHT PARTY TIME")
+    print()
+    scoreboard += 1
+    
+elif question1.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase letters who do you think am I? the answer is NO!")
+    
+elif question1 not in ["A","B","C","D"]:
+    print("Hey PAL! that aint even the one of the choices who do you think you are??")
+    print()
+   
+    
+    
+else:
+    print("no no NO! WRONG! WRONG!! WRONG!!! how dare you!?")
+    print()
+    
+    
+answer2 = "B"
+print()
+print(" Question 2: If the raiders get BLOWN out what do you post online?:\n")
+print("A. Say stuff like classic raiders like WHAT???\n")
+print("B. TALK TRASH TO OTHER TEAMS AND SAY THE RAIDERS WILL DESTORY THEM NEXT WEEK\n")
+print("C. Blame Davin for the fall of Intro to Python\n")
+print("D. Tell a trusted Adult or Mr. T\n")
+
+question2 = input("Andddddd your answer is: ")
+if question2 == (answer2):
+    print("ATA BAE! THATS HOW WE DO IT")
+    scoreboard += 1
+
+elif question2.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase letters who do you think am I? the answer is NO!")
+
+    
+elif question2 not in ["A","B","C","D"]:
+    print("Hey BUDDY! that aint even the one of the choices who do you think you are??")  
+    
+elif question2 == "C" :
+     print("Your not wrong too bad this aint the Davin quiz but 0 points for you sorry not sorry")
+    
+    
+else:
+    print("OH COME ON BRO, get outta here y-y-you...nincompoop!! ")
+    print()
+    
+    
+answer3 = "A"
+print()
+print(" Question 3: If the raiders came to your house what do you do?:\n")
+print("A. Have a tea party with them!\n")
+print("B. Say your a chiefs fan like ewwwwwww\n")
+print("C. Tell the raiders that Davin ruined the raiders and intro to python\n")
+print("D. Yogurt and Ketchup\n")
+
+question3 = input("Andddddd your answer is: ")
+if question3 == (answer3):
+    print("Correct!!!!! Fernando Mendoza loves tea parties!")
+    scoreboard += 1
+    
+elif question3 not in ["A","B","C","D"]:
+    print("Hey FRIEND! that aint even the one of the choices who do you think you are??")  
+    
+elif question3.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase who do you think am I the answer is NO!")    
+    
+elif question3 == "C" :
+     print("Your not wrong too, Davin ruined both lovable stuff but still 0 points for you sorry not sorry")
+    
+    
+else:
+    print("HEY HEY HEY!!! That wasnt correct...maybe we could t-t-try again another time im sorry. ")
+    
+   
+answer4 = "C"
+print()
+print(" Question 4 If the raiders came to Intro to Python, What would you do?:\n")
+print("A. Yell out loud and become a ruckus and be kicked out by the sub\n")
+print("B. Do the Irish Jig\n")
+print("C. Ask the Raiders to take away Davin and free us from his presence\n")
+print("D. Take Hondo's quiz\n")
+
+question4 = input("Andddddd your answer is: ")
+if question4 == (answer4):
+    print("It is the only true answer...")
+    scoreboard += 1
+    
+elif question4 not in ["A","B","C","D"]:
+    print("Hey AMIGO! that aint even the one of the choices who do you think you are??")  
+
+elif question4.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase who do you think am I the answer is NO!")
+
+    
+elif question4 == "A" :
+     print("We know its you caleb...and its WRONG!")
+    
+    
+else:
+    print("There is only one true answer...you should know what is it *hmmph~* ")
+    
+answer5 = "B"
+print()
+print(" Question 5 If Davin was apart of the raiders, would the raiders get better?:\n")
+print("A. I think so idk\n")
+print("B. The raiders will be in the most vile, depraved, and completely reprehensible team ever\n")
+print("C. Nah he'll be the waterboy\n")
+print("D. Why are the questions involving Davin ITS SUPPOSED TO BE A RAIDERS QUIZ!!!\n")
+
+question5 = input("Andddddd your answer is: ")
+if question5 == (answer5):
+    print("Correct...I guess")
+    scoreboard += 1
+    
+elif question5 not in ["A","B","C","D"]:
+    print("Hey 2025 Geno Smith! that aint even the one of the choices who do you think you are??")  
+    
+elif question5.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase who do you think am I the answer is NO!")    
+    
+    
+elif question5 == "D" :
+     print("Good question but we work on show and not tell! and oh right still incorrect")
+    
+    
+else:
+    print("ERRRR WRONG, try again...oh wait you can't ")
+    print()     
+    
+answer6 = "A"
+print()
+print(" Question 6 Even if a raider gamed played over in Uranus would the fans still go and show up and will you?:\n")
+print("A. YOU KNOW IT INSTELLAR OR OUTER ATMOSPHERE IM GOING TO TAILGATE\n")
+print("B. Um actually i cannot due to the laws of physics and that Uranus is a gas planet and cannot be habitable to live or play football games on\n")
+print("C. Wait its a planet, Did Davin come from there??\n")
+print("D. I'll go order a pizza and watch it at home on earth.\n")
+
+question6 = input("Andddddd your answer is: ")
+if question6 == (answer6):
+    print("THATS RIGHT WE OWN THE EARTH AND THE STARS AND URANUS!!!")
+    scoreboard += 1
+    
+elif question6 not in ["A","B","C","D"]:
+    print("Hey Pluto! that aint even the one of the choices who do you think you are??")  
+    
+elif question6.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase who do you think am I the answer is NO!")    
+    
+    
+elif question6 == "C" :
+     print("Thats what I said!? ur still wrong tho ")
+    
+    
+else:
+    print(" *Cracks knuckles* You just made me...every...angry!!!")
+    print()     
+
+answer7 = "D"
+print()
+print()
+print(" Final Question: How long can Raider Nation rely on just Just win baby, with their lore and Silver and Black mystique while enduring decades of front office instability, coaching carousels, and missing out on deep postseason runs? :\n")
+print("A. uhhh...WHAT??\n")
+print("B. Mr.T I need assistance\n")
+print("C. Oh! I know this one its- H-hey DAVIN stop looking at my answers!!!\n")
+print("D. I beg to defer its not one diffined answer rather a reality that the owners son controlling the owner Mark Davis has had to navigate through trial and error!\n")
+
+question7 = input("Andddddd your answer is: ")
+if question7 == (answer7):
+    print("Ultimately the fracnhises direction is no longer about just relying on Al's old slogan, its about proving that the Silver and Black culture can win in the modern NFL without him.")
+    print()
+    print()
+    scoreboard += 1
+    
+    
+elif question7 not in ["A","B","C","D"]:
+    print("Hey Davin! that aint even the one of the choices who do you think you are??")  
+    
+elif question7.islower():
+    print("USE CAPITALS READ THE DIRECTIONS, What? you said make a code that allows lowercase who do you think am I the answer is NO!")    
+    
+    
+elif question7 == "B" :
+     print("Mr.T whats the answer to this question? Hmm you said I answered it already...ah I see.")
+    
+    
+else:
+    print(" Don't you worry that was an EXTREMELY hard question even I got that one wrong!")
+    print()     
+                                
+                                
+print("That was ALOT of fun, Lets do this again same time tommorrow?")
+print("And your score isssss...")
+print()
+print()
+
+
+
+if scoreboard == 7:
+    print(f"Your AWESOME that I cant WAIT to show you!: {scoreboard}/7 YOU DID IT WOO HOO HOW DO YOU FEEL?? AMAZING I KNOW RIGHT!")
+elif scoreboard >= 4:
+    print(f"Eh Its not bad kid: {scoreboard}/7 Not bad kid...Not half bad...it aint bad...but IT AINT A PERFECT SCORE")
+else:
+    print(f"OH DEAR ITS A TERRIBLE SCORE: {scoreboard}/7 H-h-how could this happen!?no..Nooo...NOOOOOOOO!")
